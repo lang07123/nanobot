@@ -48,6 +48,8 @@ dependencies = [
     "chardet>=3.0.2,<6.0.0",
     "openai>=2.8.0",
     "tiktoken>=0.12.0,<1.0.0",
+    "jinja2>=3.1.0,<4.0.0",
+    "dulwich>=0.22.0,<1.0.0",
 ]
 
 [project.optional-dependencies]
@@ -66,6 +68,9 @@ matrix = [
     "matrix-nio[e2e]>=0.25.2",
     "mistune>=3.0.0,<4.0.0",
     "nh3>=0.2.17,<1.0.0",
+]
+discord = [
+    "discord.py>=2.5.2,<3.0.0",
 ]
 langsmith = [
     "langsmith>=0.1.0",
